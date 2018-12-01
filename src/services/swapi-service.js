@@ -40,9 +40,9 @@ export default class SwapiService {
 
 };
 
-const swapi = new SwapiService();
+// const swapi = new SwapiService();
 
-swapi.getPerson(3).then((p) => {
-	console.log(p.name);
-});
+// swapi.getPerson(3).then((p) => {
+// 	console.log(p.name);
+// });
 
