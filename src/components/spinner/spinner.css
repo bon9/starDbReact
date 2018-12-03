@@ -78,8 +78,8 @@
 	height: 70px !important;
 	-webkit-transform: translate(-35px, -35px) scale(0.35) translate(35px, 35px);
 	transform: translate(-35px, -35px) scale(0.35) translate(35px, 35px);
-}
+} 
 
 .lds-css {
 	margin: 0 auto;
-}
+} 
