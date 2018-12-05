@@ -2,3 +2,8 @@
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
+.toggle-planet {
+	position: relative;
+	bottom: 15px;
+}

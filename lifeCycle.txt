@@ -1,0 +1,22 @@
+Методы жизненного цикла реакт компонента:
+
+MOUNTING 
+--------
+constructor() => render() => componentDidMount()
+
+
+UPDATE
+--------
+New Props  // пришли новые свойства
+					 => render() => componentDidUpdate()
+setState() // или компонент вызвал setState благодая какому нибудь событию
+
+
+UNMOUNTING
+--------
+componentWillUnmount()
+
+
+ERROR
+--------
+componentDidCatch()
