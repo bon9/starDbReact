@@ -11,7 +11,8 @@ export default class PersonDetails extends Component {
 	swapiService = new SwapiService();
 
 	state = {
-		person: null
+		person: null,
+		load: null
 	};
 
 	componentDidMount() {
@@ -28,7 +29,7 @@ export default class PersonDetails extends Component {
 		const { personId } = this.props;
 
 		if (!personId) {
-			return <span>Select a person from a list</span>;
+			return;
 		}
 
 		this.swapiService
