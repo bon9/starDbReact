@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/starDbDeploy/precache-manifest.c5e3a91eae0e72499634977809e7066b.js"
+  "/bon9/starDbDeploy/precache-manifest.f03ab6a24290d151fab39fb87e6093c8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/starDbDeploy/index.html", {
+workbox.routing.registerNavigationRoute("/bon9/starDbDeploy/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
